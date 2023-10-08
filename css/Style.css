@@ -14,6 +14,7 @@ header{
     background-image: url('../images/header/Scooter\ imageScooter-blyad.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
 }
 #Nav-title{
     color: #000;
@@ -76,7 +77,7 @@ header{
     flex-shrink: 0;
     align-items: center;
     padding-top: 300px;
-    padding-left: 960px;
+    padding-left: 889px;
     padding-right: 960px;
 }
 #Text-title{
@@ -116,11 +117,9 @@ header{
     margin-top: 30px;
     text-align: center;
 }
-
-#Adventages-container{
-    width: 1056px;
+.Text-container{
+    width: 1106px;
     height: 405px;
-    flex-shrink: 0;
     padding-top: 209px;
     padding-left: 432px;
     padding-right: 432px;
@@ -128,9 +127,7 @@ header{
 #Table1{
     margin-top: 211px;
 }
-
 #Our{
-
     height: 40px;
     width: 1056px;
     font-size: 34px;
@@ -140,9 +137,8 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
 .Adventages{
-    padding-right: 100px;
+    padding-right: 71px;
     text-align: center;
     color: #000;
     font-size: 20px;
@@ -151,6 +147,107 @@ header{
     line-height: 20px;
 }
 .Adventages-text{
-    width: 175px;
+    width: 200px;
     height: 31px;
+}
+.Same-container{
+    width: 1106px;
+    height: 405px;
+    padding-top: 403px;
+    padding-left: 432px;
+    padding-right: 432px;
+}
+#About-us{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+.About-us-text{
+    width: 1106px;
+    height: 43px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; 
+    margin-top: 104px;
+}
+.About-us-text2{
+    width: 1106px;
+    height: 64px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; 
+    margin-top: 54px;
+}
+.mailing{
+    background-color: #FFA019;
+}
+#mailing-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 361px;
+    margin-left: 430px;
+    margin-right: 430px;
+}
+#mailing-txt{
+    display: flex;
+    width: 290px;
+    height: 94px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+#Name{
+    display: flex;
+    width: 243px;
+    height: 49px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border: 1px #FFF solid;
+    margin-left: 45px;
+    margin-right: 21px;
+}
+#EMail{
+    display: flex;
+    width: 243px;
+    height: 49px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border: 1px #FFF solid;
+    margin-right: 21px;
+}
+#Subscribe{
+    display: flex;
+    width: 243px;
+    height: 49px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    color: #000;
+    background-color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border: 1px #FFF solid;
 }
