@@ -114,8 +114,10 @@ header{
     flex-shrink: 0;
     border-radius: 10px;
     background: #FFF;
+    border-color: #FFF;
     margin-top: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .Text-container{
     width: 1106px;
@@ -357,8 +359,175 @@ header{
     border-radius: 10px;
     background: #FFA019;
     color: #FFF;
+    cursor: pointer;
 }
 #ELGN{
     display: flex;
     justify-content: space-between;
+}
+#Catalog-products-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 83px;
+}
+
+#SF-block{
+    width: 249px;
+    height: 410px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.10);
+    margin-right: 40px;
+}
+#Giro-block{
+    width: 249px;
+    height: 410px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.10);
+    margin-right: 40px;
+}
+#Scooter-block{
+    width: 249px;
+    height: 410px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.10);
+    margin-right: 40px;
+}
+#SS-block{
+    width: 249px;
+    height: 410px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.10);
+    margin-right: 40px;
+}
+
+#Catalog-Sigway-first, #Catalog-giro, #Catalog-Sigway-second, #Catalog-Scooter{
+    display: flex;
+    width: 97px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 0px 15px 15px 0px;
+    background: #FFA019;
+}
+
+#Catalog-Scooter{
+    font-size: 11px;
+    margin-right: 181px;
+}
+#Catalog-Sigway-second{
+    margin-right: 181px;
+}
+#Catalog-Sigway-first{
+    margin-right: 187px;
+}
+#Catalog-giro{
+    margin-right: 152px;
+}
+.image-block{
+    width: 214px;
+    height: 214px;
+    margin-top: 48px;
+    margin-left: 18px;
+    margin-right: 17px;
+}
+#text-block-1{
+    display: flex;
+    width: 169px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 57px;
+    margin-right: 23px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+#text-block-2{
+    display: flex;
+    width: 231px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 18px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+#text-block-3{
+    display: flex;
+    width: 169px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 57px;
+    margin-right: 23px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+#text-block-4{
+    display: flex;
+    width: 169px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 57px;
+    margin-right: 23px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+.cost-block{
+    margin-right: 29px;
+    margin-left: 57px;
+    margin-bottom: 33px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+}
+#SPECIAL{
+    margin-left: 18px;
+}
+#Our-Employes{
+    width: 294px;
+    height: 28px;
+    color: #000;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 86px;
+}
+#Employes-block{
+    width: 1101px;
+    height: 331px;
+    padding-top: 563px;
+    padding-left: 410px;
+}
+#Images-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Employes-images-block{
+    width: 163px;
+    height: 217px;
 }
