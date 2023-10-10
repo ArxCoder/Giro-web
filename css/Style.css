@@ -522,7 +522,7 @@ header{
     padding-top: 563px;
     padding-left: 410px;
 }
-#Images-block{
+#Consultant-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -530,4 +530,108 @@ header{
 .Employes-images-block{
     width: 163px;
     height: 217px;
+}
+.Employ-Name{
+    display: flex;
+    width: 176px;
+    height: 25px;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.Manager-text{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.Employes-text{
+    width: 82px;
+    height: 40px;
+    border-radius: 10px;
+    background: #FFA019;
+    border-color: #FFF;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 28px;
+}
+.Consultant-card{
+    margin-left: 25px;
+}
+.Employes-href{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#Brand-bg{
+    margin-top: 389px;
+    width: 100%;
+    height: 196px;
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Brands-text{
+    color: #9B9B9B;
+    padding-right: 274px;
+    padding-left: 274px;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+}
+#Info-container{
+    width: 1102px;
+    height: 365px;
+    padding-left: 409px;
+    padding-right: 409px;
+    padding-top: 112px;
+}
+#Info-head{
+    display: flex;
+    width: 345px;
+    height: 42px;
+    flex-direction: column;
+    justify-content: center;
+    color: #9B9B9B;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+#Image-info-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Image-info-container{
+    width: 240px;
+    height: 261px;
+    margin-right: 43px;
+    padding-top: 63px;
+}
+.Image-info{
+    position: absolute;
+    z-index: -1;
+}
+.Info-text{
+    padding-top: 104px;
+    z-index: 2;
+    width: 240px;
+    height: 54px;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
 }
