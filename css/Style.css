@@ -866,14 +866,19 @@ header{
         padding-right: 20px;
         padding-top: 700px;
     }
+    #ELGN{
+        display: flex;
+        flex-direction: column;
+    }
     #Catalog-heading{
         width: 100%;
         font-size: 34px;
         font-style: normal;
         font-weight: 300;
-        line-height: 30px; 
+        line-height: 30px;
     }
     #Catalog-choice{
+        margin-top: 20px;
         justify-content: space-between;
         align-items: center;
         margin-left: 0;
@@ -986,6 +991,7 @@ header{
         margin-left: 0;
         margin-right: 0;
         display: flex;
+        align-items: center;
         flex-direction: column;
     }
     .Footer-text-item{
